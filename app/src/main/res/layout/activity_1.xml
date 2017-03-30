@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rosa.examen1_app_apm_nombre_grupo.Actividad1">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="117dp"
+        android:layout_height="17dp"
+        android:text="Cantidada a convertir en pesos"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <EditText
+        android:id="@+id/pesos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text|textPersonName"
+        android:text="Pesos"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <Button
+        android:id="@+id/convertir"
+        android:layout_width="41dp"
+        android:layout_height="16dp"
+        android:onClick="onClickConvertir"
+        android:text="Convertir"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="140dp" />
+
+</android.support.constraint.ConstraintLayout>
